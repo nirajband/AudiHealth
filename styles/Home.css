@@ -1,0 +1,1093 @@
+.take-a-free {
+  position: relative;
+  line-height: 19.49px;
+  font-weight: 600;
+}
+.take-a-free-test-wrapper {
+  position: absolute;
+  top: 610px;
+  left: 100px;
+  border-radius: 12px;
+  background-color: var(--color-deeppink);
+  width: 226px;
+  height: 59px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 22px;
+  color: var(--color-white);
+}
+.macbook-pro-14-1-child {
+  position: absolute;
+  top: 180px;
+  left: 740px;
+  width: 1203.8px;
+  height: 400px;
+  object-fit: contain;
+}
+.in-a-world {
+  position: absolute;
+  top: 255px;
+  left: 0;
+  letter-spacing: 0.3px;
+  line-height: 22px;
+  display: inline-block;
+  width: 684px;
+}
+.diagnose-health-through {
+  font-weight: 600;
+  font-size: 2.45rem;
+}
+.span {
+  color: var(--color-mediumslateblue);
+}
+.audio,
+.span1 {
+  font-size: var(--font-size-27xl-9);
+  font-family: var(--font-kashafa);
+  color: var(--color-mediumvioletred);
+}
+.span1 {
+  color: var(--color-mediumslateblue);
+}
+.diagnose-health-through-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 86.1px;
+  display: inline-block;
+  width: 693px;
+  height: 86px;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+}
+.logo-icon {
+  position: relative;
+  width: 80.8px;
+  height: 116px;
+  top: 7.3rem;
+  left: 5rem;
+}
+.a-dihealth {
+  position: absolute;
+  top: 52px;
+  left: 0;
+  font-size: 83.9px;
+  letter-spacing: 16.1px;
+  line-height: 153.98px;
+  font-family: var(--font-lemon-milk);
+  color: var(--color-deeppink);
+  white-space: pre-wrap;
+}
+.in-a-world-where-misinformatio-parent {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  width: 693px;
+  height: 319px;
+  font-size: 20px;
+  color: var(--color-black);
+}
+.macbook-pro-14-1-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-sm) var(--br-sm);
+  background-color: #fef2f7;
+  backdrop-filter: blur(24.2px);
+  border-bottom: 1px solid rgba(255, 175, 208, 0.7);
+  box-sizing: border-box;
+  width: 100%;
+  height: 95px;
+}
+.audichecker,
+.home {
+  text-decoration: none;
+
+  width: 124.2px;
+  position: relative;
+  letter-spacing: -0.25px;
+  line-height: 51.18px;
+  font-weight: 500;
+  display: inline-block;
+  height: 50px;
+  flex-shrink: 0;
+}
+.home {
+  color: #e7046c;
+}
+.audichecker {
+  width: 177.3px;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+.audichecker {
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  color: #929292;
+}
+.menu {
+  position: absolute;
+  height: 1.75%;
+  top: 0.73%;
+  bottom: 97.52%;
+  left: calc(50% + 398px);
+  width: 302px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  color: var(--color-deeppink);
+}
+.logo-icon1 {
+  position: absolute;
+  top: 32px;
+  left: 100px;
+  width: 25.8px;
+  height: 37px;
+}
+.mention-features-and-refernces-child,
+.mention-features-and-refernces-inner,
+.mention-features-and-refernces-item {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-gainsboro);
+  width: 351px;
+  height: 208px;
+}
+
+.fact1 {
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+.mention-features-and-refernces-inner,
+.mention-features-and-refernces-item {
+  top: 378px;
+  width: 168px;
+  height: 164px;
+}
+
+.fact2 {
+  margin-left: 4px;
+  font-size: 14px;
+}
+
+.mention-features-and-refernces-inner {
+  left: 187px;
+  width: 164px;
+}
+
+.fact3 {
+  margin-left: 4px;
+  font-size: 15px;
+}
+
+.mention-features-and-refernces-child1,
+.mention-features-and-refernces-child2,
+.rectangle-div {
+  position: absolute;
+  top: 150px;
+  left: 367px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-gainsboro);
+  width: 350px;
+  height: 392px;
+}
+
+.fact4 {
+  margin-left: 4px;
+  font-size: 16px;
+}
+
+.mention-features-and-refernces-child1,
+.mention-features-and-refernces-child2 {
+  top: 149px;
+  left: 736px;
+  height: 141px;
+}
+
+.fact5 {
+  margin-left: 8px;
+  font-size: 16px;
+}
+
+.mention-features-and-refernces-child2 {
+  top: 310px;
+  height: 232px;
+}
+
+.fact6 {
+  margin-left: 4px;
+  font-size: 16px;
+}
+
+.blah-blah-vary,
+.we-offer-the {
+  position: absolute;
+  line-height: 19.49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blah-blah-vary {
+  top: 0;
+  left: calc(50% - 406px);
+  font-weight: 600;
+  width: 812px;
+  height: 26px;
+}
+.we-offer-the {
+  top: 49px;
+  left: calc(50% - 332px);
+  font-size: 18px;
+  color: var(--color-gray-100);
+  text-align: center;
+  width: 664px;
+  height: 46px;
+}
+.mention-features-and-refernces {
+  position: absolute;
+  top: 790px;
+  left: 225px;
+  width: 1086px;
+  height: 542px;
+  font-size: 36px;
+}
+.factfinder,
+.vocalcare {
+  position: absolute;
+  font-weight: 600;
+  display: inline-block;
+}
+.vocalcare {
+  top: 36px;
+  left: 145px;
+  line-height: 19.49px;
+  color: var(--color-mediumvioletred);
+  width: 133px;
+  height: 22px;
+}
+.factfinder {
+  height: 38.64%;
+  width: 100%;
+  top: 61.36%;
+  left: 0;
+  letter-spacing: -0.17px;
+  line-height: 34.8px;
+}
+.vector-icon {
+  position: absolute;
+  height: 61.25%;
+  top: 0;
+  right: 6.63%;
+  bottom: 38.75%;
+  left: 1.5rem;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.factfinder-parent {
+  position: absolute;
+  height: 56.05%;
+  width: 42.68%;
+  top: 0;
+  right: 28.54%;
+  bottom: 43.95%;
+  left: 28.79%;
+}
+.hackanova-hackathon-thakur {
+  margin: 0;
+}
+.hackanova-hackathon-thakur-container {
+  position: absolute;
+  height: 43.95%;
+  top: 56.05%;
+  left: calc(50% - 99px);
+  font-size: var(--font-size-smi);
+  letter-spacing: -0.17px;
+  line-height: 19px;
+  color: #828282;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 198px;
+}
+.group-parent {
+  position: absolute;
+  height: 5.49%;
+  width: 13.1%;
+  top: 92.29%;
+  right: 43.52%;
+  bottom: 3.04%;
+  left: 43.39%;
+  text-align: center;
+  font-size: 16.5px;
+  color: #161616;
+}
+.instagram,
+.span2 {
+  white-space: pre-wrap;
+}
+.span2 {
+  font-weight: bolder;
+  color: var(--color-deeppink);
+}
+.instagram-twitter-container {
+  position: absolute;
+  top: 2130px;
+  left: calc(50% - 97px);
+  font-size: var(--font-size-smi);
+  letter-spacing: -0.17px;
+  line-height: 19px;
+  text-align: center;
+}
+.macbook-pro-14-1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 2190px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl-2);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+
+.footimp-div {
+  position: relative;
+  top: 1500px;
+  /* left: 10px; */
+}
+
+.india {
+  margin-left: 10px;
+}
+
+@media (max-width: 1440px) {
+  .macbook-pro-14-1-item {
+    width: 1440px;
+    height: 80px;
+  }
+  .logo-icon1 {
+    top: 21px;
+    left: 60px;
+  }
+  .vocalcare {
+    top: 29px;
+    left: 100px;
+  }
+
+  .menu {
+    top: 0.6%;
+    left: 1070px;
+  }
+  .in-a-world-where-misinformatio-parent {
+    left: 100px;
+    /* transform: scale(0.9); */
+  }
+
+  .diagnose-health-through-container {
+    line-height: 60px;
+  }
+  .macbook-pro-14-1-child {
+    left: 620px;
+    position: absolute;
+    top: 150px;
+    width: 1203.8px;
+    height: 500px;
+    object-fit: contain;
+  }
+  .take-a-free-test-wrapper {
+    top: 600px;
+  }
+  .mention-features-and-refernces {
+    left: 180px;
+  }
+  .footimp-div {
+    width: 100px;
+    top: 1450px;
+    /* left: -10px; */
+  }
+  .group-parent {
+    width: 14%;
+    top: 91%;
+    left: 43.5%;
+  }
+  .instagram-twitter-container {
+    top: 2080px;
+  }
+  .macbook-pro-14-1 {
+    height: 2150px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .macbook-pro-14-1-item {
+    width: 1280px;
+    height: 80px;
+  }
+  .logo-icon1 {
+    top: 21px;
+    left: 60px;
+  }
+  .vocalcare {
+    top: 29px;
+    left: 100px;
+  }
+
+  .menu {
+    top: 0.6%;
+    left: 930px;
+  }
+  .in-a-world-where-misinformatio-parent {
+    left: 30px;
+    transform: scale(0.9);
+  }
+
+  .diagnose-health-through-container {
+    line-height: 60px;
+  }
+  .macbook-pro-14-1-child {
+    left: 460px;
+    position: absolute;
+    top: 150px;
+    width: 1203.8px;
+    height: 500px;
+    object-fit: contain;
+  }
+  .take-a-free-test-wrapper {
+    top: 600px;
+  }
+  .mention-features-and-refernces {
+    left: 100px;
+  }
+  .footimp-div {
+    width: 100px;
+    top: 1450px;
+    left: -130px;
+  }
+  .group-parent {
+    width: 20%;
+    top: 91%;
+    left: 40.5%;
+  }
+  .instagram-twitter-container {
+    top: 2080px;
+  }
+  .macbook-pro-14-1 {
+    height: 2150px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .macbook-pro-14-1-item {
+    width: 1024px;
+    height: 80px;
+  }
+  .logo-icon1 {
+    top: 21px;
+    left: 15px;
+  }
+  .vocalcare {
+    top: 29px;
+    left: 60px;
+  }
+
+  .menu {
+    top: 0.6%;
+    left: 685px;
+  }
+  .in-a-world-where-misinformatio-parent {
+    left: 30px;
+    transform: scale(0.9);
+  }
+
+  .diagnose-health-through-container {
+    line-height: 60px;
+  }
+  .macbook-pro-14-1-child {
+    left: 290px;
+    position: absolute;
+    top: 230px;
+    width: 1203.8px;
+    height: 300px;
+    object-fit: contain;
+  }
+  .take-a-free-test-wrapper {
+    top: 600px;
+  }
+
+  .mention-features-and-refernces {
+    transform: scale(0.9);
+    left: -30px;
+  }
+
+  .footimp-div {
+    width: 100px;
+    top: 1450px;
+    left: -250px;
+  }
+  .group-parent {
+    width: 20%;
+    top: 92%;
+    left: 40.5%;
+  }
+  .instagram-twitter-container {
+    top: 2100px;
+  }
+  .macbook-pro-14-1 {
+    height: 2150px;
+  }
+}
+
+@media (max-width: 500px) {
+  .macbook-pro-14-1-item {
+    width: 500px;
+    height: 80px;
+  }
+
+  .logo-icon1 {
+    top: 21px;
+    left: 15px;
+  }
+
+  .vocalcare {
+    top: 29px;
+    left: 60px;
+  }
+
+  .menu {
+    top: 0.6%;
+    left: 310px;
+  }
+  .home {
+    display: none;
+  }
+
+  .in-a-world-where-misinformatio-parent {
+    left: 30px;
+    width: 450px;
+    transform: scale(0.9);
+  }
+
+  .in-a-world {
+    width: 465px;
+  }
+
+  .diagnose-health-through-container {
+    top: -100px;
+    line-height: 60px;
+    width: 450px;
+    column-gap: -10px;
+  }
+
+  .logo-icon {
+    width: 64.8px;
+    height: 100px;
+    top: 6rem;
+    left: 3rem;
+  }
+  .logo-icon-except-logo {
+    position: relative;
+    width: 403px;
+    height: 100px;
+    top: -1rem;
+    left: 0.8rem;
+  }
+  .take-a-free-test-wrapper {
+    top: 635px;
+    left: 135px;
+  }
+
+  .mention-features-and-refernces {
+    transform: scale(0.8);
+    left: -288px;
+  }
+  .mention-features-and-refernces-child,
+  .mention-features-and-refernces-item,
+  .mention-features-and-refernces-inner,
+  .mention-features-and-refernces-child1,
+  .mention-features-and-refernces-child2 {
+    display: none;
+  }
+
+  .we-offer-the {
+    left: 285px;
+    width: 500px;
+  }
+  .footimp-div {
+    width: 100px;
+    top: 1350px;
+    left: -230px;
+    transform: scale(0.6);
+  }
+  .group-parent {
+    width: 37%;
+    top: 91%;
+    left: 32%;
+  }
+  .instagram-twitter-container {
+    top: 1900px;
+  }
+  .macbook-pro-14-1 {
+    height: 1950px;
+  }
+}
+
+@media (max-width: 425px) {
+  .macbook-pro-14-1-item {
+    width: 425px;
+    height: 55px;
+  }
+
+  .logo-icon1 {
+    top: 10px;
+    left: 10px;
+    transform: scale(0.7);
+  }
+
+  .vocalcare {
+    top: 17px;
+    left: 18px;
+    transform: scale(0.7);
+  }
+
+  .menu {
+    top: 0.3%;
+    left: 220px;
+    transform: scale(0.7);
+  }
+  .home {
+    display: none;
+  }
+
+  .diagnose-health-through-container {
+    top: -170px;
+    line-height: 60px;
+    width: 460px;
+    column-gap: -10px;
+    transform: scale(0.6);
+    left: -120px;
+  }
+  .logo-icon {
+    width: 64.8px;
+    height: 100px;
+    top: -4.5rem;
+    left: -0.1rem;
+    transform: scale(0.7);
+  }
+  .logo-icon-except-logo {
+    position: relative;
+    width: 500px;
+    height: 80px;
+    top: -11rem;
+    left: -6.4rem;
+    transform: scale(0.7);
+  }
+  .in-a-world-where-misinformatio-parent {
+    left: 30px;
+    width: 450px;
+    /* transform: scale(0.7); */
+  }
+
+  .in-a-world {
+    width: 525px;
+    transform: scale(0.7);
+    top: 15px;
+    left: -105px;
+  }
+  .take-a-free-test-wrapper {
+    top: 330px;
+    left: -20px;
+    transform: scale(0.6);
+  }
+
+  .mention-features-and-refernces {
+    transform: scale(0.6);
+
+    left: -330px;
+    top: 370px;
+  }
+  .mention-features-and-refernces-child,
+  .mention-features-and-refernces-item,
+  .mention-features-and-refernces-inner,
+  .mention-features-and-refernces-child1,
+  .mention-features-and-refernces-child2 {
+    display: none;
+  }
+
+  .we-offer-the {
+    left: 285px;
+    width: 500px;
+  }
+  .footimp-div {
+    width: 100px;
+    top: 750px;
+    left: -125px;
+    transform: scale(0.4);
+  }
+
+  .group-parent {
+    width: 65%;
+    top: 90%;
+    left: 19%;
+    transform: scale(0.7);
+  }
+  .vector-icon {
+    left: 2.8rem;
+  }
+  .instagram-twitter-container {
+    top: 1190px;
+    left: 120px;
+    transform: scale(0.7);
+  }
+  .macbook-pro-14-1 {
+    height: 1250px;
+  }
+  .factfinder-parent {
+    top: -25px;
+  }
+}
+
+@media (max-width: 390px) {
+  .macbook-pro-14-1-item {
+    width: 390px;
+    height: 55px;
+  }
+
+  .logo-icon1 {
+    top: 7px;
+    left: 10px;
+    transform: scale(0.65);
+  }
+
+  .vocalcare {
+    top: 15px;
+    left: 10px;
+    transform: scale(0.65);
+  }
+
+  .menu {
+    top: 0.4%;
+    left: 190px;
+    transform: scale(0.65);
+  }
+  .home {
+    display: none;
+  }
+
+  .diagnose-health-through-container {
+    top: -170px;
+    line-height: 60px;
+    width: 450px;
+    column-gap: -10px;
+    transform: scale(0.55);
+    left: -130px;
+  }
+  .logo-icon {
+    width: 64.8px;
+    height: 100px;
+    top: -4.5rem;
+    left: -0.1rem;
+    transform: scale(0.7);
+  }
+  .logo-icon-except-logo {
+    position: relative;
+    width: 500px;
+    height: 80px;
+    top: -11rem;
+    left: -6.4rem;
+    transform: scale(0.7);
+  }
+  .in-a-world-where-misinformatio-parent {
+    left: 30px;
+    width: 450px;
+    /* transform: scale(0.7); */
+  }
+
+  .in-a-world {
+    width: 525px;
+    transform: scale(0.7);
+    top: 15px;
+    left: -105px;
+  }
+  .take-a-free-test-wrapper {
+    top: 330px;
+    left: -20px;
+    transform: scale(0.6);
+  }
+
+  .mention-features-and-refernces {
+    transform: scale(0.65);
+    left: -345px;
+    top: 370px;
+  }
+  .mention-features-and-refernces-child,
+  .mention-features-and-refernces-item,
+  .mention-features-and-refernces-inner,
+  .mention-features-and-refernces-child1,
+  .mention-features-and-refernces-child2 {
+    display: none;
+  }
+
+  .we-offer-the {
+    left: 285px;
+    width: 500px;
+  }
+
+  .footimp-div {
+    width: 100px;
+    top: 750px;
+    left: -175px;
+    transform: scale(0.45);
+  }
+
+  .group-parent {
+    width: 65%;
+    top: 90%;
+    left: 19%;
+    transform: scale(0.7);
+  }
+  .instagram-twitter-container {
+    top: 1190px;
+    left: 105px;
+    transform: scale(0.7);
+  }
+  .macbook-pro-14-1 {
+    height: 1250px;
+  }
+  .factfinder-parent {
+    top: -25px;
+  }
+}
+
+@media (max-width: 375px) {
+  .macbook-pro-14-1-item {
+    width: 375px;
+    height: 55px;
+  }
+
+  .logo-icon1 {
+    top: 7px;
+    left: 10px;
+    transform: scale(0.65);
+  }
+
+  .vocalcare {
+    top: 15px;
+    left: 10px;
+    transform: scale(0.65);
+  }
+
+  .menu {
+    top: 0.4%;
+    left: 190px;
+    transform: scale(0.65);
+  }
+  .home {
+    display: none;
+  }
+
+  .diagnose-health-through-container {
+    top: -170px;
+    line-height: 60px;
+    width: 450px;
+    column-gap: -10px;
+    transform: scale(0.55);
+    left: -130px;
+  }
+  .logo-icon {
+    width: 64.8px;
+    height: 100px;
+    top: -4.5rem;
+    left: -0.1rem;
+    transform: scale(0.7);
+  }
+  .logo-icon-except-logo {
+    position: relative;
+    width: 500px;
+    height: 80px;
+    top: -11rem;
+    left: -6.4rem;
+    transform: scale(0.7);
+  }
+  .in-a-world-where-misinformatio-parent {
+    left: 30px;
+    width: 450px;
+    /* transform: scale(0.7); */
+  }
+
+  .in-a-world {
+    width: 525px;
+    transform: scale(0.7);
+    top: 15px;
+    left: -105px;
+  }
+  .take-a-free-test-wrapper {
+    top: 330px;
+    left: -20px;
+    transform: scale(0.6);
+  }
+
+  .mention-features-and-refernces {
+    transform: scale(0.65);
+    left: -355px;
+    top: 370px;
+  }
+  .mention-features-and-refernces-child,
+  .mention-features-and-refernces-item,
+  .mention-features-and-refernces-inner,
+  .mention-features-and-refernces-child1,
+  .mention-features-and-refernces-child2 {
+    display: none;
+  }
+
+  .we-offer-the {
+    left: 285px;
+    width: 500px;
+  }
+
+  .footimp-div {
+    width: 100px;
+    top: 750px;
+    left: -185px;
+    transform: scale(0.45);
+  }
+
+  .group-parent {
+    width: 65%;
+    top: 90%;
+    left: 19%;
+    transform: scale(0.7);
+  }
+  .instagram-twitter-container {
+    top: 1190px;
+    transform: scale(0.7);
+  }
+  .macbook-pro-14-1 {
+    height: 1250px;
+  }
+  .factfinder-parent {
+    top: -25px;
+  }
+}
+
+@media (max-width: 320px) {
+  .macbook-pro-14-1-item {
+    width: 320px;
+    height: 50px;
+  }
+
+  .logo-icon1 {
+    top: 7px;
+    left: 10px;
+    transform: scale(0.6);
+  }
+
+  .vocalcare {
+    top: 15px;
+    left: 10px;
+    transform: scale(0.6);
+  }
+
+  .menu {
+    top: 0.4%;
+    left: 145px;
+    transform: scale(0.6);
+  }
+  .home {
+    display: none;
+  }
+  .diagnose-health-through-container {
+    top: -170px;
+    line-height: 60px;
+    width: 450px;
+    column-gap: -10px;
+    transform: scale(0.5);
+    left: -140px;
+  }
+  .logo-icon {
+    width: 64.8px;
+    height: 100px;
+    top: -4.5rem;
+    left: -0.8rem;
+    transform: scale(0.7);
+  }
+  .logo-icon-except-logo {
+    position: relative;
+    width: 420px;
+    height: 80px;
+    top: -11rem;
+    left: -5.9rem;
+    transform: scale(0.7);
+  }
+  .in-a-world-where-misinformatio-parent {
+    left: 30px;
+    width: 450px;
+    /* transform: scale(0.7); */
+  }
+
+  .in-a-world {
+    width: 465px;
+    transform: scale(0.7);
+    top: 15px;
+    left: -100px;
+  }
+
+  .take-a-free-test-wrapper {
+    top: 340px;
+    left: -20px;
+    transform: scale(0.6);
+  }
+
+  .mention-features-and-refernces {
+    transform: scale(0.5);
+    left: -380px;
+    top: 330px;
+  }
+  .mention-features-and-refernces-child,
+  .mention-features-and-refernces-item,
+  .mention-features-and-refernces-inner,
+  .mention-features-and-refernces-child1,
+  .mention-features-and-refernces-child2 {
+    display: none;
+  }
+
+  .we-offer-the {
+    left: 285px;
+    width: 500px;
+  }
+
+  .footimp-div {
+    width: 100px;
+    top: 670px;
+    left: -175px;
+    transform: scale(0.4);
+  }
+
+  .group-parent {
+    width: 65%;
+    top: 88%;
+    left: 19%;
+    transform: scale(0.7);
+  }
+  .instagram-twitter-container {
+    top: 1125px;
+    transform: scale(0.7);
+  }
+  .macbook-pro-14-1 {
+    height: 1200px;
+  }
+  .factfinder-parent {
+    top: -25px;
+  }
+}
