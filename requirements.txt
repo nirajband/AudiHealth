@@ -10,7 +10,7 @@ SQLAlchemy==2.0.20
 # Audio Processing
 librosa==0.10.1
 soundfile==0.12.1
-audioread==2.1.9
+audioread>=3.0.0
 
 # Machine Learning & Data Science
 numpy==1.24.3
