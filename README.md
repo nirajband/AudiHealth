@@ -1,11 +1,6 @@
-# 🎤 Voice Pathology Detection System
+# 🎤 AudiHealth
 
 An advanced web-based application for detecting voice disorders in children using deep learning (Liquid State Machine) with comprehensive database integration.
-
-![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
-![Python](https://img.shields.io/badge/python-3.9%2B-blue)
-![React](https://img.shields.io/badge/react-18.0%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
 
 ## 🌟 Features
 
@@ -239,90 +234,6 @@ GET /spectrograms/{filename}
 - Metadata for sample audio files
 - Fields: id, name, file_path, actual_condition, description, age_group
 
-## 🎨 Frontend Integration
-
-### Example: Using ResultsDisplay Component
-
-```jsx
-import React, { useState } from 'react';
-import ResultsDisplay from './components/ResultsDisplay';
-
-function AudioChecker() {
-  const [result, setResult] = useState(null);
-  const [loading, setLoading] = useState(false);
-
-  const handleAudioUpload = async (file) => {
-    setLoading(true);
-    const formData = new FormData();
-    formData.append('audio', file);
-
-    try {
-      const response = await fetch('http://localhost:5000/api/diagnose', {
-        method: 'POST',
-        body: formData,
-      });
-      
-      const data = await response.json();
-      setResult(data);
-    } catch (error) {
-      console.error('Error:', error);
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  return (
-    <div>
-      {/* Your audio upload UI */}
-      {loading && <div>Analyzing...</div>}
-      {result && <ResultsDisplay result={result} />}
-    </div>
-  );
-}
-```
-
-## 🔧 Model Integration
-
-### Replace Placeholder Prediction
-
-In `app.py`, replace the placeholder prediction with your actual LSM model:
-
-```python
-def load_model():
-    """Load your trained LSM model"""
-    try:
-        import pickle
-        model = pickle.load(open('models/lsm_model.pkl', 'rb'))
-        scaler = pickle.load(open('models/scaler.pkl', 'rb'))
-        return model, scaler
-    except Exception as e:
-        print(f"Model loading error: {e}")
-        return None, None
-
-# Load model at startup
-model, scaler = load_model()
-
-def predict_pathology(features):
-    """Predict using your LSM model"""
-    if model is not None and scaler is not None:
-        # Scale features
-        features_scaled = scaler.transform(features.reshape(1, -1))
-        
-        # Get prediction
-        prediction_idx = model.predict(features_scaled)[0]
-        probabilities = model.predict_proba(features_scaled)[0]
-        confidence = float(probabilities.max() * 100)
-        
-        # Map to class names
-        class_names = ['Healthy', 'Laryngitis', 'Vocal Polyp']
-        prediction = class_names[prediction_idx]
-        
-        return prediction, confidence
-    
-    # Fallback if model not loaded
-    return "Healthy", 85.0
-```
-
 ## 🧪 Testing
 
 ### Test API Endpoints
@@ -356,16 +267,15 @@ python -c "from app import app, db, AudioRecord; app.app_context().push(); print
 ### Healthy Quotes (18 total)
 - 8 child-friendly quotes
 - 5 teen-oriented quotes
-- 5 general quotes
 
 ### Doctor Suggestions (7 total)
-- 3 Laryngitis suggestions (mild, moderate, severe)
+- 3 Chondrom suggestions (mild, moderate, severe)
 - 3 Vocal Polyp suggestions (mild, moderate, severe)
 - 1 General pathology suggestion
 
 ### Sample Audio Metadata (7 entries)
 - 3 Healthy voice samples
-- 2 Laryngitis samples
+- 2 Chondrom samples
 - 2 Vocal Polyp samples
 
 ## 🛠️ Customization
@@ -410,82 +320,5 @@ db.session.commit()
 - ⚠️ Use HTTPS in production
 - ⚠️ Sanitize all user inputs
 
-## 🐛 Troubleshooting
-
-### Database Issues
-```bash
-# Reset database
-rm voice_pathology.db
-python init_db.py
-```
-
-### Port Already in Use
-```python
-# Change port in app.py
-app.run(debug=True, port=5001)
-```
-
-### Module Not Found
-```bash
-pip install --upgrade -r requirements.txt
-```
-
-### Spectrogram Not Displaying
-- Check CORS configuration
-- Verify spectrogram folder permissions
-- Check image path in response
-
-## 📈 Future Enhancements
-
-- [ ] User authentication and accounts
-- [ ] Audio playback feature
-- [ ] PDF report generation
-- [ ] Email notifications
-- [ ] Real-time analysis with WebSocket
-- [ ] Multi-language support
-- [ ] Mobile app version
-- [ ] Advanced age detection
-- [ ] Voice comparison feature
-- [ ] Treatment progress tracking
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 👥 Authors
-
-- **Sahil Brid** - *Initial work* - [GitHub](https://github.com/sahilbrid)
-
-## 🙏 Acknowledgments
-
-- Saarbrücken Voice Database for training data
-- Anthropic Claude for assistance
-- All contributors and testers
-
-## 📧 Contact
-
-For questions or support:
-- GitHub Issues: [Create an issue](https://github.com/sahilbrid/voice-pathology-detection/issues)
-- Email: your-email@example.com
-
-## 🔗 Links
-
-- [Live Demo](http://voice-pathology-detection.s3-website.ap-south-1.amazonaws.com/)
-- [Documentation](https://github.com/sahilbrid/voice-pathology-detection/wiki)
-- [Saarbrücken Voice Database](https://stimmdb.coli.uni-saarland.de/)
-
----
-
-**⚠️ Medical Disclaimer:** This application provides preliminary analysis only. Always consult qualified healthcare professionals for proper diagnosis and treatment.
 
 Made with ❤️ for children's voice health
